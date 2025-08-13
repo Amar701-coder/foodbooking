@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main {
+  background-image: url('/3392.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  height: 100vh;
+  
+}
+ #main h3{
+  font-family: "Federant", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
