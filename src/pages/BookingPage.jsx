@@ -103,21 +103,7 @@ const BookingPage = () => {
                 left: "2px",
               }}
             >
-              <IconButton sx={{ mr: 2 }}>
-                <Menu sx={{ color: "#333333" }} />
-              </IconButton>
-
-              <Typography
-                variant="h5"
-                sx={{
-                  fontFamily: "Poppins",
-                  fontWeight: "bold",
-                  color: "#333333",
-                  mr: "auto",
-                }}
-              >
-                Food Hunt
-              </Typography>
+           
 
               <Stack direction="row" spacing={4} sx={{ mr: "auto", ml: 4 }}>
                 {navigationItems.map((item) => (
@@ -135,10 +121,6 @@ const BookingPage = () => {
                   </Typography>
                 ))}
               </Stack>
-
-              <IconButton>
-                <ShoppingBag sx={{ color: "#333333" }} />
-              </IconButton>
             </Stack>
 
             {/* Food images scattered on green background */}
